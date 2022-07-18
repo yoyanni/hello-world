@@ -1,0 +1,67 @@
+.entry--outer {
+    margin: 2em;
+    /*
+    display: flex;
+    align-items: center;
+    */
+}
+
+.entry--inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    /*
+    display: flex;
+    align-items: center;
+    */
+}
+
+.entry--img {
+    float: left;
+    margin-right: 1em;
+    width: 200px;
+    height: 250px;
+    object-fit: cover; /*For the img to fit into the img tag and to keep its original aspect ratio*/
+    object-position: 40% 0; /*Adjust the img inside the aspect ratio specified above*/
+    border-radius: 0.5em;
+    /*
+    float: right;
+    height: 100%;
+    width: 60%;
+    */
+}
+
+.entry--info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.entry--location img {
+    height: 1em;
+    width: 1em;
+}
+
+.entry--location span {
+    letter-spacing: 0.15em;
+    margin-right: 1em;
+}
+
+.entry--location a {
+    color: #b3b3b3;
+}
+
+.entry--title {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.entry--date {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.entry--desc{
+    width:80%;
+}
