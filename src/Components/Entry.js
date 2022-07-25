@@ -1,5 +1,5 @@
 import React from "react";
-import gpss from "../imgs/gps.png";
+import gps from "../imgs/gps.png";
 import "./Entry.css";
 
 export default function Entry(prop){
@@ -9,7 +9,7 @@ export default function Entry(prop){
                 <img src={process.env.PUBLIC_URL + prop.img} alt="img did not come through" className="entry--img"/>
                 <div className="entry--info">
                     <div className="entry--location">
-                        <span><img src={gpss} alt=""/>{prop.location}</span>
+                        <span><img src={gps} alt=""/>{prop.location}</span>
                         <a href={prop.link}>View on Google Maps</a>
                     </div>
                     <p className="entry--title">{prop.title}</p>
