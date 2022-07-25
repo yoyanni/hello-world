@@ -1,4 +1,4 @@
-export default [
+const entries = [
     {
         img: "mnt-fuji1.jpg",
         location: "JAPAN",
@@ -27,3 +27,5 @@ export default [
         desc: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality. It is a 15-kilometre-long branch off the Sunnylvsfjorden, which is a branch off the Storfjorden."
     },
 ]
+
+export default entries;
